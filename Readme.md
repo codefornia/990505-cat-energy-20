@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Irina Slukina](https://up.htmlacademy.ru/adaptive/20/user/990505).
-* Наставник: `Неизвестно`.
+* Наставник: `[Ivan Jarkov](https://https://htmlacademy.ru/profile/stalyer).
 
 ---
 
