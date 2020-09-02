@@ -8,7 +8,9 @@
 <header class="page-header">
   <div class="page-header__wrapper">
     <a class="page-header__logo">
-      <span class="visually-hidden">Интернет-магазин «Cat Energy»</span>
+      <picture>
+        <img width="191" height="38" src="img/logo-mobile.svg" alt="Логотип Cat Energy">
+      </picture>
     </a>
     <nav class="site-nav">
       <button class="site-nav__toggle" type="button">
@@ -43,14 +45,14 @@
   </section>
   <section class="programs-list">
     <h2 class="visually-hidden">Список программ</h2>
-    <article class="programs-list__item program">
+    <article class="programs-list__item program program--pro">
       <h2 class="program__title">Набор массы</h2>
       <p class="program__description">
         Ваш кот весит больше собаки и почти утратил способность лазить по&nbsp;деревьям? Пора на&nbsp;диету! Cat&nbsp;Energy&nbsp;Slim
         поможет вашему питомцу сбросить лишний вес.</p>
       <a href="#" class="program__link">Каталог pro</a>
     </article>
-    <article class="programs-list__item program">
+    <article class="programs-list__item program program--slim">
       <h2 class="program__title">Похудение</h2>
       <p class="program__description">
         Заработать авторитет среди дворовых котов и даже собак? Серия Cat&nbsp;Energy&nbsp;Pro поможет вашему коту
@@ -111,12 +113,15 @@
         <div class="slider__img slider__img--before"></div>
         <div class="slider__img slider__img--after"></div>
       </div>
-      <div class="slider__toogles"></div>
+      <div class="slider__toggles">
+        <button class="slider__toggle slider__button--before" type="button" aria-label="Ползунок слайдера"></button>
+        <button class="slider__toggle-motion" type="button" aria-label="Ползунок слайдера"></button>
+        <button class="slider__toggle slider__button--after" type="button" aria-label="Ползунок слайдера"></button>
+      </div>
     </div>
   </section>
 </main>
 <footer class="page-footer">
-  <h2 class="visually-hidden">Контакты</h2>
   <section class="page-footer__contacts contacts">
     <h2 class="visually-hidden">Контакты</h2>
     <div class="contacts__text">
@@ -126,15 +131,16 @@
     </div>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002828!2d30.32085871571738!3d59.938719169054636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1598368293843!5m2!1sru!2sru"
-      width="1300" height="362" style="border:0;" allowfullscreen="" aria-hidden="false"
-      tabindex="0"></iframe>
+      width="1300" height="362" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <img class="contacts__map-img" src="img/bg-map-mobile@1x.png" srcset="img/bg-map-mobile@2x.png 2x"
+         alt="Санкт-Петербург ул. Большая Конюшенная, д. 19/8">
   </section>
   <div class="page-footer__links">
-    <a class="footer__logo-link">
+    <a class="page-footer__logo-link">
       <span class="visually-hidden">Магазин Cat Energy</span>
       <svg></svg>
     </a>
-    <section class="socials">
+    <section class="page-footer__socials socials">
       <h3 class="visually-hidden">Мы в социальных сетях</h3>
       <ul class="socials__list">
         <li class="socials__item">
@@ -159,7 +165,7 @@
         </li>
       </ul>
     </section>
-    <div class="copyright">
+    <div class="page-footer__copyright copyright">
       <h3 class="visually-hidden">Разрабочик</h3>
       <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">HTML Academy
         <svg></svg>
